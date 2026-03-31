@@ -3,7 +3,7 @@
     "link": null
   },
   "test_preprocess": {
-    "vocab_length": 1802
+    "vocab_length": 1804
   },
   "test_build_lm": "NameError(\"name 'build_lm' is not defined\")\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_5763/2957777135.py\", line 48, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_5763/2957777135.py\", line 16, in test_build_lm\n    'english_2_gram_length': len(build_lm('en', 2, True)),\n                                 ^^^^^^^^\nNameError: name 'build_lm' is not defined\n",
   "test_eval": "NameError(\"name 'build_lm' is not defined\")\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_5763/2957777135.py\", line 48, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_5763/2957777135.py\", line 23, in test_eval\n    lm = build_lm('en', 3, True)\n         ^^^^^^^^\nNameError: name 'build_lm' is not defined\n",

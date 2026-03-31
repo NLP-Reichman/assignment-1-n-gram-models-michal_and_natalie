@@ -1,0 +1,11 @@
+{
+  "test_link": {
+    "link": null
+  },
+  "test_preprocess": {
+    "vocab_length": 1804
+  },
+  "test_build_lm": "NameError(\"name 'build_lm' is not defined\")\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_5763/2957777135.py\", line 48, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_5763/2957777135.py\", line 16, in test_build_lm\n    'english_2_gram_length': len(build_lm('en', 2, True)),\n                                 ^^^^^^^^\nNameError: name 'build_lm' is not defined\n",
+  "test_eval": "NameError(\"name 'build_lm' is not defined\")\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_5763/2957777135.py\", line 48, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_5763/2957777135.py\", line 23, in test_eval\n    lm = build_lm('en', 3, True)\n         ^^^^^^^^\nNameError: name 'build_lm' is not defined\n",
+  "test_generate": "NameError(\"name 'generate' is not defined\")\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_5763/2957777135.py\", line 48, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_5763/2957777135.py\", line 33, in test_generate\n    'english_2_gram': generate('en', 2, \"I am\", 20, 5),\n                      ^^^^^^^^\nNameError: name 'generate' is not defined. Did you mean: 'enumerate'?\n"
+}

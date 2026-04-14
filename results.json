@@ -17,5 +17,13 @@
     "en_on_tl": 63.34,
     "en_on_nl": 56.31
   },
-  "test_generate": "NameError(\"name 'generate' is not defined\")\nTraceback (most recent call last):\n  File \"/var/folders/l5/pyytflc17tzcfh6j9s46brkr0000gn/T/ipykernel_10745/2957777135.py\", line 48, in <module>\n    cur_res = test()\n  File \"/var/folders/l5/pyytflc17tzcfh6j9s46brkr0000gn/T/ipykernel_10745/2957777135.py\", line 33, in test_generate\n    'english_2_gram': generate('en', 2, \"I am\", 20, 5),\n                      ^^^^^^^^\nNameError: name 'generate' is not defined. Did you mean: 'enumerate'?\n"
+  "test_generate": {
+    "english_2_gram": "I amse fodrett nk OMet.c",
+    "english_3_gram": "I amsnebeed https://t.co",
+    "english_4_gram": "I Love big and what be hel",
+    "spanish_2_gram": "Soy O quraro @As Qas de",
+    "spanish_3_gram": "Soy bi\u00e9n glis greytNpQQ",
+    "french_2_gram": "Je suis quxpenco/tes fiokre",
+    "french_3_gram": "Je suis qu'inalos Ce fieron"
+  }
 }
